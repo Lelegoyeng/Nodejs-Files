@@ -37,7 +37,7 @@ directory-serve /path-of-file
 const options = yargs
   .usage(yargsMessage)
   .option('p', {
-    default: 8989,
+    default: 1927,
     alias: 'port',
     describe: 'Change default port',
     type: 'integer',
